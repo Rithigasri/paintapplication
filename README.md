@@ -50,24 +50,28 @@ Publish the website in the given URL.
         font-family: Arial, Helvetica, sans-serif;
       }
       body {
-        background-color:lightseagreen;
-        color: #17421d;
+        background-image: url("https://colors.dopely.top/inside-colors/wp-content/uploads/2021/06/colorful-backgrounds-11.jpg");
+        background-size:cover;
+        
       }
       .container {
         width: 1080px;
         margin-left: auto;
         margin-right: auto;
+        
       }
       .content {
         display: block;
         width: 100%;
         background-color:lavenderblush;
         min-height: 650px;
-        margin: 50px 50px 0px 0px;
-        padding-top: 20px;
+        margin: 30px 50px 0px 0px;
+        padding-top: 10px;
       }
       h1 {
+      
         text-align: center;
+        font-family: cursive;
       }
       canvas {
         margin-left: 40px;
@@ -82,6 +86,17 @@ Publish the website in the given URL.
         margin-left:50px;
         margin-bottom:10px;
       }
+      .footer{
+        display:block;
+        width:100%;
+        height: 30px;
+        color:black;
+        text-align: center;
+        padding-top: 5px;
+        margin: 0px 0px 0px 0px;
+
+    
+}
     </style>
     <script>
       var shape;
@@ -206,10 +221,10 @@ Publish the website in the given URL.
   <body>
     <div class="container">
       <div class="content">
-        <h1>DRAWING APPLICATION</h1>
+        <h1>CANVAS PAINT APPLICATION</h1>
         <div>
           <div class="toolbar1">
-            <input type="button" id="red" value="RED"/>
+            <input type="button" id="red" value="RED">
             <input type="button" id="green" value="GREEN"/>
             <input type="button" id="blue" value="BLUE"/>
             <input type="button" id="orange" value="ORANGE"/>
@@ -237,6 +252,7 @@ Publish the website in the given URL.
         <input type="button" id="hline" value="HORIZONTAL LINE"/>
         
       </div>
+      <div class="footer">Canvas Paint Application,Developed by Rithiga Sri.B</div>
       </div>
     </div>
     <script>
@@ -286,10 +302,14 @@ Publish the website in the given URL.
   </body>
 </html>
 
+
 ```
 
 ## OUTPUT:
 ![OUTPUT](output.png)
+
+## SAMPLE OUTPUT:
+![SAMPLE](sample.png)
 
 ## VALIDATION REPORT:
 ![VALIDATION](validator.png)
